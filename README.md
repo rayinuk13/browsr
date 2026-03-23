@@ -55,7 +55,7 @@ Config is stored at: `~/.browsr/config.enc`
 ### Clone and install
 
 ```bash
-git clone https://github.com/yourusername/browsr.git
+git clone https://github.com/rayinuk13/browsr.git
 cd browsr
 pip install -e .
 ```
@@ -63,7 +63,7 @@ pip install -e .
 ### Virtual environment (recommended)
 
 ```bash
-git clone https://github.com/yourusername/browsr.git
+git clone https://github.com/rayinuk13/browsr.git
 cd browsr
 python3 -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
