@@ -739,6 +739,10 @@ def main():
 
     args = parser.parse_args()
 
+    # No command and no task → show menu (default behaviour)
+    if not args.command and not args.task:
+        show_menu(); return
+
     if args.command == "menu":
         show_menu(); return
     if args.command == "key":
